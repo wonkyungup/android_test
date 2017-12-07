@@ -16,7 +16,8 @@ public class LoginScene extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_scene);
+        setContentView(
+                R.layout.activity_login_scene);
 
         findid = (Button) findViewById(R.id.findid);
         membership = (Button)findViewById(R.id.membership);
